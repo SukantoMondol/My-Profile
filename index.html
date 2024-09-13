@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo"><img src="picture/My logo.jpg" alt="" class="my-logo" > </div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#profile">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#experience">Experience</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+ 
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> <img src="picture/My logo.jpg" alt="" class="my-logo"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-link">
+            <li><a href="#profile" onclick="toggleMenu()">Home</a> </li>
+            <li><a href="#about" onclick="toggleMenu()">About</a> </li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a> </li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a> </li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+  
+            
+        </div>
+
+        </div>   
+    </nav>
+
+    <section id="profile">
+        <div class="section-pic-container">
+            <img class="profile-pic" src="picture/My picture jpg.jpg" alt="">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello It's me</p>
+            <h1 class="title">Sukanto Mondol</h1>
+            <p class="section-text-p2">Web Developer</p>
+            <div class="btn-container">
+                <button class=" btn btn-color-2" onclick="window.open()">
+                  CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    contact
+                  </button>
+            </div>
+            <div id="social-container">
+                <img src="picture/702300.png" alt=""
+                class="social-icon" onclick="location.href='https://linkedin.com/in/Sukanto-Mondol/'" >
+                <img src="picture/25231.png" alt=""
+                class="social-icon" onclick="location.href='https://github.com/SukantoMondol'">
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-class">
+            <div id="about-me">
+                <p class="section-text-p1">Get to Know More</p>
+                <h1 class="title">About me</h1>
+            </div>
+            
+            <div class="section-container">
+                <div class="section-pic-container">
+                    <img class="about-pic" src="" alt="">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img class="social-icon" src="picture/experience.webp" alt="">
+                            <h3>Experience</h3>
+                            <p> <span id="year">1+ year </span><br />Frontend Development <br><span id="year">1+ year</span> <br>backend development </p>
+                        </div>
+                        <div class="details-container">
+                            <img class="social-icon" src="picture/education.jpg" alt="">
+                            <h3>Education</h3>
+                            <p>Bsc. in Computer Science and Engineering </p>
+                            <h5>Independent University, Bangladesh</h5>
+                            <p class="college">HSC</p>
+                            <h5>Adil Uddin College, Malithia</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p class="about-me">Myself Sukanto Mondol, a dedicated and aspiring developer currently pursuing a Bachelor 
+                            of Science in Computer Science. My passion for technology and creativity has driven my 
+                            journey into the world of web development. With a keen eye for design and a solid foundation
+                             in HTML, CSS, and JavaScript, I specialize in creating intuitive and visually appealing user 
+                             interfaces.</p>
+                    </div>
+                 </div>
+            </div>
+            <img src="picture/arrow.png" alt="" 
+            class="social-icon arrow"
+            onclick="location.href='./#experience'">
+        </div>
+        
+
+    </section>
+
+    <section id="experience">
+        <div class="experience-class">
+            <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Basic &emsp;&emsp;&emsp;</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Basic &emsp;&emsp;&emsp;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>Django</h3>
+                                <p>Basic &emsp;&emsp;&emsp;</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="picture/checkmark.png" alt=""
+                            class="social-icon">
+                            <div>
+                                <h3>MongoBD</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="picture/arrow.png" alt="" 
+        class="social-icon arrow"
+        onclick="location.href='./#projects'">
+
+        </div>
+        
+    </section>
+
+   
+
+    <section id="projects">
+        <div class="project-class">
+            <p class="section-text-p1"> Browese My Project</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+               <div class="details-container color-container">
+                 <div class="article-container">
+                    <img src="picture/project01.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                <h3 class="project">Rock Paper Scissors</h3>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/SukantoMondol/Rock-Paper-Scissors'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://SukantoMondol.github.io/Rock-Paper-Scissors/'">
+                     Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="picture/project02.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                <h3 class="project">Weather App</h3>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/SukantoMondol/Weather_app'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://SukantoMondol.github.io/Weather_app/'">
+                     Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="picture/project03.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 3</h2>
+                <h3 class="project">Contact Form with backend</h3>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/SukantoMondol/contact_form'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://SukantoMondol.github.io/contact_form/'">
+                     Live Demo</button>
+                </div>
+             </div>
+           </div>
+         </div>
+         </div>
+         <img src="picture/arrow.png" alt="" 
+         class="social-icon arrow"
+         onclick="location.href='./#contact'"/>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="contact-class">
+            <p class="section-text-p1">Get In Touch</p>
+           <h1 class="title"> Contact Me</h1>
+            <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="picture/picture 1.jpg" alt=""
+                class="social-icon contact-icon">
+                <p><a href="mailto:examplemail.com">sukanto1578@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="picture/702300.png" alt=""
+                class="social-icon contact-icon icon">
+                <p><a href="https://www.linkedin.com/in/Sukanto-Mondol/">Sukanto Mondol</a></p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#profile">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#experience">Experience</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+     
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Sukanto Mondol. All Rights Reserved</p>
+    </footer>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
